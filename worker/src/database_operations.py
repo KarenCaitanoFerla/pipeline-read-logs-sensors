@@ -1,3 +1,4 @@
+#Code that includes interactions with the database, such as creating tables, inserting data, and executing queries.
 import os
 import mysql.connector
 

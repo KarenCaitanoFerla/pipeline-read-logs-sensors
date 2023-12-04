@@ -1,3 +1,4 @@
+#This code contains the queries that I will use to query the database.
 class DataBaseQuery():
 
     def total_failures(self):
@@ -11,22 +12,6 @@ class DataBaseQuery():
                         inner join logsfailure on sensors.sensor_id = logsfailure.sensor
                     where logsfailure.typelog = "ERROR"
                     group by equipment.name order by error_quant desc limit 1
-        """
-        return query
-    
-    def name_equipment_sensor(self, sensor_id):
-        query = f"""
-            SELECT equipment_id
-            FROM sensors
-            WHERE sensor_id = '{sensor_id}';
-        """
-        return query
-    
-    def equipment_id_name(self, equipment_id):
-        query = f"""
-            SELECT name
-            FROM equipment
-            WHERE equipment_id = '{equipment_id}';
         """
         return query
     
