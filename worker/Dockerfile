@@ -7,3 +7,5 @@ RUN pip3 install -r /worker/requirements.txt
 COPY . /worker
 
 WORKDIR /worker
+
+CMD ["python", "-u", "main.py"]

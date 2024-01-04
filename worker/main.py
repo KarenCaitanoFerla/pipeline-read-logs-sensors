@@ -2,7 +2,10 @@ from src.file_reading import FileReading
 from src.database_operations import ConectionDataBase
 from src.databasequery import DataBaseQuery
 
+print("Starting conection and DB")
+
 conn = ConectionDataBase()
+conn.init_connection()
 conn.init_databaselogs()
 
 file = FileReading()
