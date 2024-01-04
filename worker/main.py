@@ -36,6 +36,7 @@ print(f'ANSWER 2) Equipment name had most failures: {equipment_id_name}')
 media_equipments_query = search.group_equipment()
 media_equipments = conn.execute_query_all_results(media_equipments_query)
 print('ANSWER 3) Average amount of failures across equipment group, ordered by the number of failures in ascending order:')
+print("equipment group | number of failures")
 for equipment_mean in media_equipments:
     print(equipment_mean)
 
@@ -43,6 +44,7 @@ for equipment_mean in media_equipments:
 group_most_error_sensor_query = search.group_most_error_sensor()
 group_most_error_sensor =  conn.execute_query_all_results(group_most_error_sensor_query)
 print("ANSWER 4) Rank the sensors which present the most number of errors by equipment name in an equipment group:")
+print("equipment group | name equipment | sensor | number of failures")
 for group in group_most_error_sensor:
     print(group)
 
