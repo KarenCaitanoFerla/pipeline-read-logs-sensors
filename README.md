@@ -1,10 +1,10 @@
 # README - Projeto Desafio com Python, SQL e Docker
 
-Bem-vindo ao projeto desenvolvido para um desafio, onde foram respondidas 4 perguntas específicas relacionadas a falhas de equipamentos. Além das respostas em SQL, o projeto foi complementado com Docker para facilitar o gerenciamento do ambiente de desenvolvimento.
+Bem-vindo ao projeto desenvolvido para explorar meus conhecimentos, onde foram respondidas 4 perguntas específicas relacionadas a falhas de equipamentos. Além das respostas em SQL, o projeto foi complementado com Docker para facilitar o gerenciamento do ambiente de desenvolvimento.
 
 ## Descrição do Projeto
 
-Este projeto foi criado como resposta a um desafio, abordando quatro perguntas específicas relacionadas a falhas de equipamentos. Utilizando Python para manipulação de dados, SQL para consultas e Docker para facilitar a execução do projeto em um ambiente isolado, o objetivo é fornecer soluções eficientes e escaláveis.
+Este projeto foi criado abordando quatro perguntas específicas relacionadas a falhas de equipamentos. Utilizando Python para manipulação de dados, SQL para consultas e Docker para facilitar a execução do projeto em um ambiente isolado, o objetivo é fornecer soluções eficientes e escaláveis.
 
 ## Perguntas Respondidas
 
